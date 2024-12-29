@@ -1,0 +1,75 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    /* background-color: skyblue; */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+    background-color: skyblue;
+    height: 120px;
+}
+
+.page_header{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+    padding-top: 15px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+    font-size: 40px;
+    color: white;
+}
+
+nav{
+    background-color: rgb(21, 118, 203);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main{
+    background-color: skyblue;
+    height: 800px;
+}
+
+h2{
+    margin-top: 0px;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}
+
+
+
+footer{
+    background-color: gray;
+    height: 100px;
+}
+
+a{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+}

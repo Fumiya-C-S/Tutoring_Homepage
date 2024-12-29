@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Chen Tutoring Homepage</title>
+    <meta name="description" content="Andrew Chen's Tutoring Homepage made by Fumiya Shinagawa">
+    <link rel="stylesheet" href="contact_style.css">
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1 class="page_header">
+                <b>Andrew Chen <br> Tutorting Homepage</b>
+            </h1>
+        </header>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="sessions.html">SESSIONS</a>
+            <a href="schedule_meeting.html">SCHEDULE MEETING</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+
+        <main>
+            <h2>Contact</h2>
+            <div class="contact_container">
+                <img class="andrew" src="Pictures/Screenshot 2024-12-23 at 7.48.04 PM.png" alt="Andrew Chen">
+                <div class="text_container">
+                    <h3>Andrew Chen</h3>
+
+                <form id="sendEmail">
+                    <label for="nameInput">Your Name:</label> <br>
+                    <input type="text" class="input" id="nameInput" placeholder="Enter Name..." required> <br>
+
+                    <label for="emailInput">Your Email:</label> <br>
+                    <input type="text" class="input" id="emailInput" placeholder="Enter Email..." required> <br>
+
+                    <label for="emailBody">Email Message:</label> <br>
+                    <textarea type="text" class="input" id="emailBody" rows="5" placeholder="Write Your Message..." required></textarea> <br>
+
+                    <button type="submit">Send Email</button>
+
+                </form>
+                <p id="feedback"></p>
+
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                <script type="text/javascript" src="sendEmail.js"></script>
+
+                </div>
+            </div>
+    
+        </main>
+
+        <footer></footer>
+
+    </div>
+
+
+</body>
+
+
+</html>
